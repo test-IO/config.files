@@ -14,5 +14,5 @@ Raspberry
 ---------
 
 ````
-curl ... | bash
+curl https://raw.githubusercontent.com/test-IO/config.files/master/raspberry_setup.sh | bash
 ````
