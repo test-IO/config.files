@@ -13,6 +13,14 @@ Now on to the system specific setup/update instructions:
 Raspberry
 ---------
 
+### Setup
+
 ````
 curl https://raw.githubusercontent.com/test-IO/config.files/master/raspberry_setup.sh | bash
+````
+
+### Update
+
+````
+curl https://raw.githubusercontent.com/test-IO/config.files/master/raspberry_update.sh | bash
 ````
