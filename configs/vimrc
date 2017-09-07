@@ -4,7 +4,7 @@ call pathogen#infect()
 set term=xterm-256color
 set background=dark
 set colorcolumn=160
-colorscheme deep-space
+colorscheme ego
 filetype plugin indent on
 syntax on
 let mapleader = "-"
