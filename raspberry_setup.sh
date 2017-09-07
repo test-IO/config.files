@@ -10,7 +10,7 @@ sudo apt-get install -y \
     wget \
     sl
 
-chmod u+x vim_setup.sh && ./vim_setup.sh
+curl https://raw.githubusercontent.com/test-IO/config.files/master/vim_setup.sh | bash
 
 # tmux config
 # bash_aliases
