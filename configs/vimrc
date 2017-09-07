@@ -1,0 +1,21 @@
+execute pathogen#infect()
+call pathogen#helptags()
+call pathogen#infect()
+set term=xterm-256color
+set background=dark
+set colorcolumn=160
+colorscheme deep-space
+filetype plugin indent on
+syntax on
+let mapleader = "-"
+" Backspace issue
+set backspace=indent,eol,start
+" Whitespace stuff
+set nowrap
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set list listchars=tab:\ \ ,trail:·
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>

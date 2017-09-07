@@ -10,8 +10,7 @@ sudo apt-get install -y \
     wget \
     sl
 
-# vimrc
-wget 
+curl https://raw.githubusercontent.com/test-IO/config.files/master/vim_setup.sh | bash
 
 # tmux config
 wget -O ~/.tmux.conf https://raw.githubusercontent.com/test-IO/config.files/master/configs/tmux
