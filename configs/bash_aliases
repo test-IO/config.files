@@ -1,0 +1,4 @@
+alias l='ls -al'
+alias ..='cd ..'
+alias cdk='cd ~/kicker'
+alias duso='sudo'
